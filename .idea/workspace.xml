@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07285211-320a-4183-b295-5b9ea2497a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/emotion-analyze-voice/emotion_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emotion-analyze-voice" beforeDir="false" afterPath="$PROJECT_DIR$/emotion-analyze-voice" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emotion_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emotion-analyze-voice/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/emotion-analyze-voice" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
