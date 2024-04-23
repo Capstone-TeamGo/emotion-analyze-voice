@@ -1,7 +1,7 @@
 import json
 
 
-# from simple_emotion_analysis import analyze_emotion
+# from simple_emotion_analysis import analyze_emotio
 def lambda_handler(event, context):
     body = json.loads(event['body'])
     text = body.get('text', '')

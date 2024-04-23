@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="07285211-320a-4183-b295-5b9ea2497a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/emotion_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emotion-analyze-voice" beforeDir="false" afterPath="$PROJECT_DIR$/emotion-analyze-voice" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emotion-analyze-voice/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +45,11 @@
     "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\develop\capstone\ai\emotion-analyze-voice\pythonProject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
