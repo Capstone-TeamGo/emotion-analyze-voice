@@ -35,7 +35,7 @@ def lambda_handler(event, context):
     # BERT 모델 로드 및 문장 감정 분류
     model_architecture = "kykim/bert-kor-base"
     model = BertForSequenceClassification.from_pretrained(model_architecture, num_labels=5)
-    model_save_path = "/content/drive/MyDrive/fine_tuned_model3.pt"  # 미리 학습된 모델 경로 설정
+    model_save_path = "fine_tuned_model3.pt"  # 미리 학습된 모델 경로 설정
     model.load_state_dict(torch.load(model_save_path, map_location=torch.device('cpu')))
     tokenizer = BertTokenizer.from_pretrained(model_architecture)
     labels, probabilities = classify_sentence_with_prob(model, tokenizer, sentence)
