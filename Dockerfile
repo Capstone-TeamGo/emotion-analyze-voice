@@ -2,19 +2,20 @@
 FROM public.ecr.aws/lambda/python:3.11
 
 # 작업 디렉토리 설정
-WORKDIR /app
+WORKDIR ${LAMBDA_TASK_ROOT}
 
 # 필요한 패키지 설치
-RUN python3.11 -m pip install --upgrade pip
+# RUN python3.11 -m pip install --upgrade pip
 
 #로컬 pc
-COPY . /app
+COPY fine_tuned_model3.pt .
+COPY lambda_function.py .
+COPY requirements.txt .
 
 # 필요한 라이브러리 설치
 # 로컬 pc
-RUN pip install -r /app/requirements.txt
-
+RUN pip install --no-cache-dir -r requirements.txt
 
 # 실행 명령
 # 로컬
-CMD ["emotion_analysis.lambda_handler"]
+CMD ["lambda_function.handler"]
